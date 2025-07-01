@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LCDA STUDIO - Music Production</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #111;
+      color: #eee;
+    }
+    header {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #00ffcc;
+    }
+    nav {
+      text-align: center;
+      background: #333;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #eee;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ffcc;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #00ffcc;
+    }
+    footer {
+      background: #222;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .contact a {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LCDA STUDIO</h1>
+    <p>Music Production in the Southern Highlands</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <h2>About</h2>
+    <p><strong>Jorge Aparicio</strong>, known as "Fito," is a music producer and recording engineer originally from Peru. He founded LCDA STUDIO after relocating to Australia in 2005. With over 20 years of experience, Fito brings professional sound production and artist development to the Southern Highlands.</p>
+  </section>
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>🎙️ Recording Sessions</li>
+      <li>🎚️ Mixing & Mastering (including Ozone 11 workflow)</li>
+      <li>🎧 Music Production and Arrangement</li>
+      <li>🎤 Vocal Recording and Tuning</li>
+      <li>📹 Video Support for Music Clips</li>
+    </ul>
+  </section>
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Listen to our work on YouTube and Spotify. Featuring artists like <strong>Tania Doria</strong> and others.</p>
+    <p><a href="https://youtube.com/@lcdastudio" target="_blank">YouTube Channel</a></p>
+    <p><a href="https://spotify.com" target="_blank">Spotify Playlist</a></p>
+  </section>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x250?text=Studio+Session+1" alt="Studio Session 1">
+      <img src="https://via.placeholder.com/400x250?text=Studio+Gear" alt="Studio Gear">
+      <img src="https://via.placeholder.com/400x250?text=Vocal+Booth" alt="Vocal Booth">
+      <img src="https://via.placeholder.com/400x250?text=Mixing+Desk" alt="Mixing Desk">
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:lcdastudio@gmail.com">lcdastudio@gmail.com</a></p>
+    <p>Instagram / TikTok: <a href="https://www.instagram.com/lcdastudio" target="_blank">@lcdastudio</a></p>
+    <p>Located in the Southern Highlands, NSW, Australia</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 LCDA STUDIO | Designed by Jorge "Fito" Aparicio</p>
+  </footer>
+</body>
+</html>
